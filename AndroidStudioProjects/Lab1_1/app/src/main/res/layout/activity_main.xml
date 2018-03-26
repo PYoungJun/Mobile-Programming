@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.parkyoungjun.lab1_1.MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="186dp"
+        android:layout_height="55dp"
+        android:onClick="onButton1Clicked"
+        android:text="Change Button"
+
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/real"
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        android:visibility="invisible"
+        android:src = "@drawable/asdf"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:src = "@drawable/bar"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+
+</FrameLayout>
+</LinearLayout>
