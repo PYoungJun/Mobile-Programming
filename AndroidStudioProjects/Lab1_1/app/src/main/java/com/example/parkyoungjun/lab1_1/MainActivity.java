@@ -14,23 +14,23 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        imageView=(ImageView)findViewById(R.id.bar);
-        imageView2=(ImageView)findViewById(R.id.real);
+        imageView=(ImageView)findViewById(R.id.bar);            //match id which is bar
+        imageView2=(ImageView)findViewById(R.id.real);           //match id which is real
     }
     public void onButton1Clicked(View v){
-        changeImage();
+        changeImage();              //the event is occured when clicked the button
     }
     private void changeImage(){
         if(imageIndex==0){
-            imageView.setVisibility(View.VISIBLE);
-            imageView2.setVisibility(View.INVISIBLE);
+            imageView.setVisibility(View.VISIBLE);      //if imageindex is 0 set image imageview
+            imageView2.setVisibility(View.INVISIBLE);   //and set imageindex 1
 
             imageIndex=1;
         }
         else if(imageIndex==1)
         {
-            imageView.setVisibility(View.INVISIBLE);
-            imageView2.setVisibility(View.VISIBLE);
+            imageView.setVisibility(View.INVISIBLE);        //if imageindex is 1 set image imageview
+            imageView2.setVisibility(View.VISIBLE);         //and set imageindex 0
 
             imageIndex=0;
         }
