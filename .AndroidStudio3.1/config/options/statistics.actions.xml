@@ -1,0 +1,11 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="CheckinFiles" count="2" />
+      <entry action="CheckinProject" count="1" />
+      <entry action="Git.Add" count="2" />
+      <entry action="HideAllWindows" count="3" />
+      <entry action="Vcs.Push" count="3" />
+    </counts>
+  </component>
+</application>
